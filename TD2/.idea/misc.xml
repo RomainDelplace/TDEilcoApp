@@ -5,7 +5,11 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.375" />
         <entry key="app/src/main/res/layout/calendrier.xml" value="0.23007246376811594" />
+        <entry key="app/src/main/res/layout/constraint_layout.xml" value="0.2269021739130435" />
+        <entry key="app/src/main/res/layout/meteo.xml" value="0.16770833333333332" />
         <entry key="app/src/main/res/layout/password.xml" value="0.23007246376811594" />
+        <entry key="app/src/main/res/layout/relative_layout.xml" value="0.2269021739130435" />
+        <entry key="app/src/main/res/layout/repas.xml" value="0.2269021739130435" />
       </map>
     </option>
   </component>
