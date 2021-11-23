@@ -13,7 +13,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.8"
         android:text="Go To Details"
-        android:onClick="GotoNewsActivity"/>
+        android:onClick="GotoDetailsActivity"/>
 
     <Button
         android:id="@+id/BUT2"
@@ -22,6 +22,28 @@
         app:layout_constraintVertical_bias="0.9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="GotoNewsActivity"
+        android:onClick="GotoLoginActivity"
         android:text="Go To Login" />
+
+    <Button
+        android:id="@+id/BUT3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="GotoLibelle"
+        android:text="Libelle" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#4CAF50"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/BUT3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

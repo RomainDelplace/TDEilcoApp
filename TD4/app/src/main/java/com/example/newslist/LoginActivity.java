@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -14,8 +16,11 @@ public class LoginActivity extends AppCompatActivity {
         setTitle(getLocalClassName());
     }
 
-    public void GotoNewsActivity(){
+    public void GotoNewsActivity(View view) {
+        EditText username = (EditText) findViewById(R.id.text1);
+        String Susername = String.valueOf(username.getText());
         Intent intent = new Intent(this, NewsActivity.class);
+        Intent login = intent.putExtra("login", Susername );
         startActivity(intent);
         this.finish();
     }

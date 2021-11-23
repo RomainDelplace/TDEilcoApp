@@ -15,4 +15,14 @@
         android:text="Go To News"
         android:onClick="GotoNewsActivity"/>
 
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom Utilisateur"
+        app:layout_constraintBottom_toTopOf="@+id/BUT1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
