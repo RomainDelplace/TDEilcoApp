@@ -14,6 +14,10 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
         setTitle(getLocalClassName());
+
+        NewListApplication app = (NewListApplication) getApplicationContext();
+        String log = app.getLog();
+
     }
 
     public void GotoNewsActivity(View view) {
@@ -22,7 +26,12 @@ public class LoginActivity extends AppCompatActivity {
         Intent intent = new Intent(this, NewsActivity.class);
         Intent login = intent.putExtra("login", Susername );
         startActivity(intent);
+
+        NewListApplication app = (NewListApplication) getApplicationContext();
+        app.setLog(Susername);
+
         this.finish();
     }
+
 
 }
