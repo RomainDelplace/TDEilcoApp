@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(Call<List<Repo>> call, Response<List<Repo>> response) {
                 afficherRepos(response.body());
 
+
+
             }
 
             @Override
@@ -42,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
     public void afficherRepos(List<Repo> repos) {
         Toast.makeText(this,"nombre de dépots : "+repos.size(), Toast.LENGTH_SHORT).show();
     }
