@@ -3,6 +3,9 @@ package com.example.tp6;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Toast;
+
+import com.google.firebase.database.core.Repo;
 
 import java.util.List;
 
@@ -30,9 +33,17 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<List<Repo>> call, Response<List<Repo>> response) {
                 afficherRepos(response.body());
+
             }
 
             @Override
-        }
+            public void onFailure(Call<List<Repo>> call, Throwable t) {
+
+            }
+        });
     }
+    public void afficherRepos(List<Repo> repos) {
+        Toast.makeText(this,"nombre de dépots : "+repos.size(), Toast.LENGTH_SHORT).show();
+    }
+
 }
