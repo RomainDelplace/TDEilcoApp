@@ -8,7 +8,12 @@
         <entry key="app/src/main/res/drawable/popular.xml" value="0.18385416666666668" />
         <entry key="app/src/main/res/drawable/search.xml" value="0.3260416666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/frame_favorite.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/layout/frame_popular.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/layout/frame_search.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/layout/frame_upcoming.xml" value="0.16770833333333332" />
         <entry key="app/src/main/res/layout/toolbar.xml" value="0.2223731884057971" />
+        <entry key="app/src/main/res/menu/nav_bar.xml" value="0.16770833333333332" />
         <entry key="app/src/main/res/menu/navigation.xml" value="0.3098958333333333" />
       </map>
     </option>
