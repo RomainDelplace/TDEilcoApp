@@ -2,21 +2,20 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/nav_popular"
+        android:id="@+id/menu_popular"
         android:icon="@drawable/popular"
         android:title="Popular"/>
     <item
-        android:id="@+id/nav_upcoming"
+        android:id="@+id/menu_upcoming"
         android:icon="@drawable/upcoming"
         android:title="Upcoming"/>
     <item
-        android:id="@+id/nav_favorite"
+        android:id="@+id/menu_favorite"
         android:icon="@drawable/favorite"
         android:title="Favorite"/>
     <item
-        android:id="@+id/nav_search"
+        android:id="@+id/menu_search"
         android:icon="@drawable/search"
         android:title="Search"/>
-
 
 </menu>
