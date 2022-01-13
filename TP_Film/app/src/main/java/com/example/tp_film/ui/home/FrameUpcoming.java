@@ -12,6 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.tp_film.ListeFilm;
 import com.example.tp_film.R;
 import com.example.tp_film.databinding.FrameUpcomingBinding;
 
@@ -29,10 +30,12 @@ public class FrameUpcoming extends Fragment {
         View root = binding.getRoot();
 
         final TextView textView = binding.textupcoming;
-        upcomingViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        upcomingViewModel.getListeFilm().observe(getViewLifecycleOwner(), new Observer<ListeFilm>() {
             @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
+            public void onChanged(@Nullable ListeFilm listefilm)
+            {
+                // adapteur
+
             }
         });
         return root;

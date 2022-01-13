@@ -9,7 +9,8 @@ public class FavoriteViewModel extends ViewModel {
     private MutableLiveData<String> mText;
 
     public FavoriteViewModel() {
-        // API
+        //
+
         mText = new MutableLiveData<>();
         mText.setValue("This is favorite fragment");
     }
