@@ -1,6 +1,7 @@
 package com.example.tp_film;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -43,9 +44,12 @@ public class Adapteur extends RecyclerView.Adapter<Adapteur.ViewHolder>{
             @Override
             public void onClick(View v) {
                 // intend versdetail film ( autre activité )
+                Intent intent = new Intent(v.getContext(), DetailFilmActivity.class);
+                intent.putExtra("idfilm",film.getId());
+                v.getContext().startActivity(intent);
             }
-        });
 
+        });
     }
 
     @Override
