@@ -43,6 +43,7 @@ public class UpcomingViewModel extends ViewModel {
             }
         });
 
+        // texte frame
         mText = new MutableLiveData<>();
         mText.setValue("This is upcoming fragment");
     }

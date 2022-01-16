@@ -3,16 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../../../../layout/custom_preview.xml" value="0.325" />
         <entry key="app/src/main/res/drawable/favorite.xml" value="0.3260416666666667" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.3260416666666667" />
         <entry key="app/src/main/res/drawable/popular.xml" value="0.18385416666666668" />
         <entry key="app/src/main/res/drawable/search.xml" value="0.3260416666666667" />
+        <entry key="app/src/main/res/layout/activity_detail_film.xml" value="0.20153985507246377" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.1859375" />
         <entry key="app/src/main/res/layout/frame_favorite.xml" value="0.1" />
         <entry key="app/src/main/res/layout/frame_popular.xml" value="0.16770833333333332" />
         <entry key="app/src/main/res/layout/frame_search.xml" value="0.16770833333333332" />
         <entry key="app/src/main/res/layout/frame_upcoming.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/layout/item_film.xml" value="0.22059531270079194" />
         <entry key="app/src/main/res/layout/toolbar.xml" value="0.2223731884057971" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.1859375" />
         <entry key="app/src/main/res/menu/menu_bar.xml" value="0.1859375" />
