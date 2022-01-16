@@ -50,4 +50,6 @@ public class UpcomingViewModel extends ViewModel {
     public LiveData<String> getText() {
         return mText;
     }
+
+
 }

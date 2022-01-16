@@ -30,6 +30,14 @@ public class FrameUpcoming extends Fragment {
         View root = binding.getRoot();
 
         final TextView textView = binding.textupcoming;
+        upcomingViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+            @Override
+            public void onChanged(@Nullable String s) {
+                textView.setText(s);
+            }
+        });
+
+        final TextView textViewfilm = binding.textupcoming;
         upcomingViewModel.getListeFilm().observe(getViewLifecycleOwner(), new Observer<ListeFilm>() {
             @Override
             public void onChanged(@Nullable ListeFilm listefilm)
